@@ -62,7 +62,7 @@
 
 ## (三)Python-Gurobi
 在此說明如何運用Python-Gurobi來建構CRS model
-##### ※完整程式碼可點擊[這裡](https://github.com/wurmen/DEA/blob/master/CRS_Model/CRS_code.py)
+##### ※完整程式碼可點擊[這裡](https://github.com/PO-LAB/DEA/blob/master/CRS_Model/CRS_code.py)
 
 ### Import gurobipy
 ```python
