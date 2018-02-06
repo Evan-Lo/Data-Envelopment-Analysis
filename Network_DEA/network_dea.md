@@ -97,7 +97,7 @@
 
 ## (三)Python-Gurobi
 在此說明如何運用Python-Gurobi來建構關聯網絡DEA模型
-##### ※完整程式碼可點擊[這裡](https://github.com/PO-LAB/DEA/blob/master/Network_DEA/network_dea_code.py)
+##### ※完整程式碼可點擊[這裡](https://github.com/wurmen/DEA/blob/master/Network_DEA/network_dea_code.py)
 
 ### Import gurobipy
 ```python
@@ -108,11 +108,8 @@ from gurobipy import*
 ```python
 DMU=['A', 'B','C','D','E']
 E={}
-
-val_p1, val_p2, val_p3 = {}, {}, {}
-val_s1, val_s2 = {}, {}
-slack_p1, slack_p2, slack_p3 = {}, {}, {}
-
+val_p1,val_p2,val_p3,val_s1,val_s2={},{},{},{},{}
+slack_p1,slack_p2,slack_p3={},{},{}
 for k in DMU:
 
     I=2 # 兩項投入
